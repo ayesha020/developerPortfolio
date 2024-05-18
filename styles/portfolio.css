@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
+    align-items: center;
 }
 
 /* header and navigation style */
@@ -20,6 +21,7 @@ nav li {
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav a{
     text-decoration: none;
@@ -34,4 +36,4 @@ nav a{
     border: 0;
     color: white;
     font-size: 20px;
-    font-weight: 700px;
+        font-weight: 700px;}
