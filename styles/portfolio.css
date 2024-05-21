@@ -105,9 +105,13 @@ nav a {
 
 /* main section style */
 
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 .section-title {
@@ -117,7 +121,7 @@ main{
     font-weight: 700px;
 }
 
-.section-description{
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -129,29 +133,45 @@ main{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0px ;
+    margin: 130px 0px;
 }
 
 
-.about-info-container{
-display: flex;
-justify-content: space-around;
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
 }
-.about-info{
-text-align: center;
+
+.about-info {
+    text-align: center;
 }
 
 
 /* what i do section */
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
 }
 
-.skills-container{
-display: flex;
+.skills-container {
+    display: flex;
+    gap: 24px;
 }
 
-.skill{
-   padding: 30px; 
-   gap: 24px;
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px
 }
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume section styles */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+} 
